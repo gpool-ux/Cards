@@ -1,0 +1,486 @@
+/*Globals*/
+
+/*PAGINA 1*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+  text-align: center;
+  font-family: arial;
+}
+
+.article1 {
+  display: inline-block;
+  background: white;
+  text-align: left;
+  margin-top: 120px;
+  border-radius: 18px;
+  box-shadow: 0px 0px 20px #939393;
+}
+
+img {
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+.top {
+  position: relative;
+}
+
+.letters {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: black;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.bottom {
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.img1 {
+  display: block;
+}
+
+li {
+  text-align: center;
+}
+
+li a {
+  color: #3eaaec;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  padding: 10px;
+  background-color: #3eaaec;
+  color: white;
+  border-radius: 50px;
+  display: inline-block;
+  width: 140px;
+}
+
+/*PAGINA 2*/
+
+.top2 {
+  position: relative;
+  padding: 50px;
+  background: linear-gradient(to bottom, #669999 0%, #666699 100%);
+  padding-bottom: 0px;
+}
+
+.article2 {
+  background: linear-gradient(to bottom, #669999 0%, #666699 100%);
+  padding-bottom: 50px;
+}
+
+.bottom2 {
+  background-color: white;
+  padding-top: 10px;
+  width: 19%;
+  margin-inline-start: 778px;
+  border-bottom-left-radius: 18px; /*redondear puntas en este caso abajo*/
+  border-bottom-right-radius: 18px;
+}
+
+.letters2 {
+  position: absolute;
+  bottom: 30px;
+  left: 5px;
+  right: 5px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.img2 {
+  display: block;
+  width: 20%;
+  height: 22rem;
+  margin: auto;
+  padding: auto;
+}
+
+/*BOTON CIRCULAR*/
+.button2 {
+  background: linear-gradient(to bottom, #ff3300 0%, #cc00cc 100%);
+  color: white;
+  border-radius: 50%;
+  padding: 14px 28px;
+  font-size: 25px;
+  position: absolute;
+  top: 65px; /*EN MEDIO DEL DIV*/
+  left: 48%;
+}
+
+/*LETRAS INSTAGRAM*/
+#p2 p {
+  max-width: 100%;
+  height: auto;
+  color: lightgray;
+  font-size: 12px;
+  padding-top: 20px;
+  margin: 10px 45px 0 50px; /* texto centrado*/
+}
+
+#p2 h3 {
+  text-align: center;
+  font-size: 19px;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding-top: 10px;
+  text-align: center;
+  margin: 0px 50px 0 50px;
+  padding-top: -60px;
+  padding-bottom: 30px;
+}
+
+
+
+/*------------------------------------------------------------------------------*/
+
+/*PAGINA 3*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.body3 {
+  text-align: center;
+  font-family: arial;
+  background: rgb(243, 137, 99);
+}
+
+.article3 {
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  background: white;
+  border-top-right-radius: 20px;/*REDONDER LAS PUNTAS DE CAJA*/
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;/*REDONDER LAS PUNTAS DE CAJA*/
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+}
+
+.top3{
+
+  position: relative;
+  
+  border-top-right-radius: 20px;/*REDONDER LAS PUNTAS DE CAJA*/
+  border-top-left-radius: 20px;
+  
+
+  
+}
+
+
+.img3 {
+  
+display: block;
+  filter: blur(8px); /*img borrosa*/
+ 
+  margin:auto;
+  padding: auto;
+  height: 9rem;
+  width: 100%;  
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  
+}
+
+/*IMAGEN CIRCULAR*/
+.imgcircular {
+  background-image: url('../images/kylo.jpg'); /*en la ruta se usa 2 puntos si es local desde carpeta*/
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center center;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+        display: inline-block;
+        top:75px; /*ALTURA*/
+        left: 39%; /*LATERALES*/
+        margin-left: -25px;
+}
+
+
+
+/*PUNTO CIRCULAR ONLINE*/
+.online {
+  position: absolute;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background:green;
+  top: 2.5%;  /*ALTURA*/
+  left: 46%;    /*LADOS*/
+  margin-left: -28px;
+}
+
+
+ /*TEXTO ONLINE*/
+ #p3 h6{
+  position: relative;
+   color: green;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+  margin: 145px;
+   margin-bottom: 15px;   
+  
+ }
+
+ #p3 h1{
+  text-align: center;
+  color: #585858;
+  margin-top: 1px;
+  padding-bottom: 2px;
+  margin: auto;
+  padding: auto;
+}
+
+.text {
+
+  position: relative;
+        bottom: 40px;
+        text-align: center;
+        width: 100%;
+        
+}
+
+#p3 h4{
+  text-align: center;
+  color: #585858;
+  margin:auto;
+  padding: 15px;
+  font-style: italic;
+}
+
+ .top3 li{
+  list-style-type: none;
+  color: grey;
+  font-size: 15px;
+  padding-top: 100px;
+  margin: auto;
+  padding: auto;
+}
+
+.top3 ul {
+  padding: 1px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#p3 .izq h5 {
+  border-left: 1px solid rgb(192, 192, 192);
+  height: 70px;
+  position: absolute;
+  margin-left: -10px;
+  top: 83.5%;  /*ALTURA*/  
+  left: 33%;    /*LADOS*/
+}
+
+#p3 .der h5{
+  border-left: 1px solid rgb(192, 192, 192);
+  height: 70px;
+  position: absolute;
+  margin-left: -10px;
+  top: 83.5%;  /*ALTURA*/  
+  left: 74%;    /*LADOS*/
+}
+
+
+ .add{
+  background: linear-gradient(to bottom, #ff6666 0%, #ff3300 100%);
+  margin: auto;
+  padding: 25px;
+  font-size: 35px;
+  color: white;
+  font-family:  cursive;
+  border-bottom-right-radius: 20px;/*REDONDER LAS PUNTAS DE CAJA*/
+  border-bottom-left-radius: 20px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/*PAGINA 4*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.body4 {
+  text-align: center;
+  font-family: arial;
+  background-image:linear-gradient(rgba(231, 13, 231, 0.5),rgba(231, 13, 231, 0.5)),  url('../images/dudefondo.jfif') ;
+  /*FONDO CON IMAGEN Y CAPA ENCIMA DE COLOR*/
+  
+  background-size: cover;
+  
+}
+
+
+
+.article4 {
+  display: inline-block;
+  text-align: center;
+  margin-top: 80px;
+  background: white;
+  border-top-right-radius: 20px;/*REDONDER LAS PUNTAS DE CAJA*/
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;/*REDONDER LAS PUNTAS DE CAJA*/
+  border-bottom-left-radius: 20px;
+ 
+}
+
+.top4{
+
+  position: relative;
+  width: 500px;
+  height: 20rem;
+  border-top-right-radius: 20px;/*REDONDER LAS PUNTAS DE CAJA*/
+  border-top-left-radius: 20px;
+  
+  
+}
+
+
+
+.text2 {
+
+  position: relative;
+        bottom: -100px;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+  padding: 20px;
+  border-radius:100%;
+}
+
+.img4{
+  display: block;
+  border-radius: 100%;
+}
+ .imgcircular2 {
+  background-image:  url('../images/dude.jpg'); /*en la ruta se usa 2 puntos si es local desde carpeta*/
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center center;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+        display: inline-block;
+        top:170px; /*ALTURA*/
+        left: 46%; /*LATERALES*/
+        margin-left: -25px;
+        padding: 20px;
+        border-left: 15px solid rgba(231, 13, 231, 0.9);
+        border-right: 15px solid  rgba(231, 13, 231, 0.9);
+        border-top: 15px solid  rgba(231, 13, 231, 0.9);
+        border-bottom: 15px solid  rgba(231, 13, 231, 0.9);
+        
+   
+  }
+/*-----------------------------*/
+
+
+
+#body5{
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+
+
+  }
+
+
+
+.container{
+
+  width: 300px;
+  height: 430px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 10px 1px #000;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.container2{
+  height: 150px;
+  background: purple;
+}
+
+.container3{
+  height: 280px ;
+  background: coral;
+  padding: 20px;
+  padding-top: 70px;
+  text-align: center;
+}
+
+
+
+
+
+.img-container{
+  background: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translate(100px,100px);
+  
+}
+
+.img-container img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  
+}
