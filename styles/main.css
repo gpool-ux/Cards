@@ -223,20 +223,6 @@ display: block;
   
 }
 
-/*IMAGEN CIRCULAR*/
-.imgcircular {
-  background-image: url('../images/kylo.jpg'); /*en la ruta se usa 2 puntos si es local desde carpeta*/
-  border-radius: 100%;
-  background-size: cover;
-  background-position: center center;
-  width: 150px;
-  height: 150px;
-  position: absolute;
-        display: inline-block;
-        top:75px; /*ALTURA*/
-        left: 39%; /*LATERALES*/
-        margin-left: -25px;
-}
 
 
 
